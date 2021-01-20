@@ -1,0 +1,25 @@
+<header class="pb-header">
+    <div class="pb-header__left">
+        <div class="pb-header__toggle" role="button" (click)="toggleMenu()">
+            <span class="material-icons">menu</span>
+        </div>
+        <div class="pb-header__user">
+            {{ welcome + user }}
+        </div>
+    </div>
+    <nav class="pb-header__options">
+        <ul class="pb-header__items">
+            <li
+                class="pb-header__items__item"
+                [ngClass]="{'highlight': item.highlight}"
+                *ngFor="let item of menu"
+                role="button">
+                <span class="pb-header__items__item__text">
+                    {{ item?.title || 'Unknown' }}
+                </span>
+                <span class="material-icons">{{ item?.icon }}</span>
+            </li>
+        </ul>
+    </nav>
+
+</header>

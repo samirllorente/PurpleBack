@@ -1,0 +1,14 @@
+<nav class="pb-nav" [ngClass]="{'close': openMenu}">
+    <div class="pb-nav__logo">
+        <h1>{{ title | uppercase }}</h1>
+    </div>
+    <div class="pb-nav__menu">
+        <h2 class="pb-nav__menu__title">{{ menuTitle | uppercase }} </h2>
+        <ul class="pb-nav__menu__items">
+            <li *ngFor="let item of menu" role="button">
+                <h3>{{ (item?.title || 'Unknown') | uppercase }}</h3>
+                <span>{{ item?.new ? '¡NUEVO!' : '' }} </span>
+            </li>
+        </ul>
+    </div>
+</nav>

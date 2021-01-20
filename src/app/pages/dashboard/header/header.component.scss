@@ -1,0 +1,85 @@
+@import '../../../../assets/scss/colors';
+
+.pb-header {
+    height: 5rem;
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 0 2rem;
+
+    &__user {
+        font-size: 1.25rem;
+        font-weight: bold;;
+    }
+
+    &__items {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        
+        &__item {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0 0.75rem;
+            color: $gray-dark;
+
+            & > .material-icons {
+                color: $gray-dark;
+                margin-left: 0.5rem;
+                font-size: 2rem;
+            }
+
+            &.highlight {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__toggle {
+        display: none;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .pb-header__toggle {
+        display: block;
+    }   
+}
+
+@media (max-width: 768px) {
+    .pb-header__items__item {
+        margin: 0 0.3rem;
+    
+        &__text {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .pb-header {
+        padding: 0 1rem;
+    
+        &__user {
+           font-size: 1rem; 
+        }
+
+        &__items__item {
+            margin: 0;
+
+            & > .material-icons {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
