@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { ProductData } from 'src/app/stores/product/product.model';
 
 @Component({
@@ -27,16 +28,18 @@ export class ProductCardComponent {
       return this.data_;
     }
 
+  constructor(private translateService: TranslateService) {}
+
   public getName(): string {
     switch(this.data?.product?.type) {
       case 'CREDIT_CARD':
-        return'Tarjeta de crédito';
+        return this.translateService.instant('home.cards.titles.creditCard');
       case 'FIXED_TERM_DEPOSIT_CERTIFICATE':
-        return 'CDT';
+        return this.translateService.instant('home.cards.titles.cdt');
       case 'FREE_INVESTMENT_LOAN':
-        return 'Prestamo de libre inversión';
+        return this.translateService.instant('home.cards.titles.freeInvestmentLoan');
       case 'CURRENT_ACCOUNT':
-        return 'Cuenta corriente';
+        return this.translateService.instant('home.cards.titles.currentAccount');
       default:
         return this.data?.product?.type || 'Unknown';
     }

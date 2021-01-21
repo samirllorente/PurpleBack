@@ -1,5 +1,6 @@
 export interface MENU_HEADER {
     highlight?: boolean,
     icon: string,
-    title: string
+    title: string,
+    translation: string
 }

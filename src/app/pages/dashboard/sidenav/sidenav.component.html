@@ -1,14 +1,21 @@
 <nav class="pb-nav" [ngClass]="{'close': openMenu}">
     <div class="pb-nav__logo">
-        <h1>{{ title | uppercase }}</h1>
+        <h1>{{ 'sidenav.logo' | translate | uppercase }}</h1>
     </div>
     <div class="pb-nav__menu">
-        <h2 class="pb-nav__menu__title">{{ menuTitle | uppercase }} </h2>
+        <h2 class="pb-nav__menu__title">{{ 'sidenav.title' | translate | uppercase }} </h2>
         <ul class="pb-nav__menu__items">
             <li *ngFor="let item of menu" role="button">
                 <h3>{{ (item?.title || 'Unknown') | uppercase }}</h3>
-                <span>{{ item?.new ? '¡NUEVO!' : '' }} </span>
+                <span>{{ item?.new ? ('sidenav.new' | translate) : '' }} </span>
             </li>
         </ul>
+    </div>
+    <div class="pb-nav__translation">
+        {{ 'sidenav.translation.spanish' | translate }}
+        <span class="pb-nav__translation__switch">
+            <app-switch></app-switch>
+        </span>
+        {{ 'sidenav.translation.english' | translate }}
     </div>
 </nav>

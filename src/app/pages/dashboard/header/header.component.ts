@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { DashboardService } from 'src/app/services/dashboard.service';
 import { MENU_HEADER } from './header.model';
 
@@ -10,26 +11,37 @@ import { MENU_HEADER } from './header.model';
 export class HeaderComponent {
 
   public user: string = 'Miguel';
-  public welcome: string = 'Buenos días, ';
   
   public menu: Array<MENU_HEADER> = [
     {
+      icon: 'account_circle',
       title: 'Perfil',
-      icon: 'account_circle'
+      translation: 'header.profile'
     },
     {
+      icon: 'notifications_none',
       title: 'Alertas',
-      icon: 'notifications_none'
+      translation: 'header.alerts'
     },
     {
-      title: 'Salidad segura',
+      highlight: true,
       icon: 'exit_to_app',
-      highlight: true
+      title: 'Salidad segura',
+      translation: 'header.logout'
     }
   ];
   private toggleMenu_: boolean = false;
 
-  constructor(private dashboardService: DashboardService) {}
+  constructor(
+    private dashboardService: DashboardService,
+    private translateService: TranslateService
+    ) {
+      this.translateService.onLangChange.subscribe((event: LangChangeEvent) => {
+        this.menu.forEach(item => {
+          item.title = this.translateService.instant(item.translation)
+        });
+      });
+    }
 
   public toggleMenu() {
     this.toggleMenu_ = !this.toggleMenu_;

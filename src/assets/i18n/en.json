@@ -1,0 +1,43 @@
+{
+    "header": {
+        "alerts": "Alerts",
+        "goodMorning": "Good morning, {{user}}",
+        "logout": "Logout",
+        "profile": "Profile"
+    },
+    "home": {
+        "cards": {
+            "icon": "Icon",
+            "seeDetail": "See detail",
+            "summary": {
+                "availableBalance": "Available balance",
+                "investedValue": "Invested value",
+                "nextMinimumPayment": "Next minimum payment",
+                "youHaveToPay": "You have to pay"
+            },
+            "titles": {
+                "cdt": "CDT",
+                "creditCard": "Credit card",
+                "currentAccount": "Current account",
+                "freeInvestmentLoan": "Free investment loan"
+            }
+        },
+        "showOtherProducts": "Show other products"
+    },
+    "sidenav": {
+        "logo": "Logo",
+        "menu": {
+            "certificates": "Certificates",
+            "payments": "Payments",
+            "security": "Security",
+            "tranfers": "Tranfers",
+            "yourOrganizer": "Your organizer"
+        },
+        "new": "New",
+        "title": "Your products",
+        "translation": {
+            "english": "English",
+            "spanish": "Spanish"
+        }
+    }
+}

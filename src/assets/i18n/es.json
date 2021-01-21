@@ -1,0 +1,43 @@
+{
+    "header": {
+        "alerts": "Alertas",
+        "goodMorning": "Buenos días, {{user}}",
+        "logout": "Salidad segura",
+        "profile": "Perfil"
+    },
+    "home": {
+        "cards": {
+            "icon": "Icono",
+            "seeDetail": "Ver detalle",
+            "summary": {
+                "availableBalance": "Saldo disponible",
+                "investedValue": "Valor invertido",
+                "nextMinimumPayment": "Próximo pago mínimo",
+                "youHaveToPay": "Te queda por pagar"
+            },
+            "titles": {
+                "cdt": "CDT",
+                "creditCard": "Tarjeta de crédito",
+                "currentAccount": "Cuenta corriente",
+                "freeInvestmentLoan": "Prestamo de libre inversión"
+            }
+        },
+        "showOtherProducts": "Mostrar otros productos"
+    },
+    "sidenav": {
+        "logo": "logo",
+        "menu": {
+            "certificates": "Certificados",
+            "payments": "Pagos",
+            "security": "Seguridad",
+            "tranfers": "Transferencias",
+            "yourOrganizer": "Tu Organizador"
+        },
+        "new": "Nuevo",
+        "title": "Tus productos",
+        "translation": {
+            "english": "Inglés",
+            "spanish": "Español"
+        }
+    }
+}

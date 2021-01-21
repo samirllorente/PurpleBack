@@ -64,6 +64,17 @@
             margin-bottom: 1.5rem;
         }
     }
+
+    &__translation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+
+        &__switch {
+            margin: 0 0.5rem;
+        }
+    }
 }
 
 
