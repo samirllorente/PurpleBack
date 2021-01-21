@@ -1,0 +1,38 @@
+<div class="pb-card">
+    <div class="pb-card__header">
+        <div class="pb-card__header__icon">
+            ICONO
+        </div>
+        <a class="pb-card__header__view-detail" role="button">
+            Ver detalle
+            <span class="material-icons">navigate_next</span>
+        </a> 
+    </div>
+    <div class="pb-card__title">
+        {{ getName() }}
+    </div>
+    <div class="pb-card__nro">
+        Nro.
+            {{
+                data?.product?.type === 'CREDIT_CARD' ?
+                    formatCardNro(data?.product?.id || 'xxxxxxxxxxxxxxxx') :
+                    (data?.product?.id || 'Unknown')
+            }}
+    </div>
+    <div class="pb-card__balance" *ngIf="data.product.type === 'CURRENT_ACCOUNT'">
+        <span>Saldo disponible:</span><br>
+        {{ (data?.summary?.balance || 0) | currency }}
+    </div>
+    <div class="pb-card__balance" *ngIf="data.product.type === 'CREDIT_CARD'">
+        <span>Próximo pago mínimo:</span><br>
+        {{ (data?.summary?.min_payment || 0) | currency }}
+    </div>
+    <div class="pb-card__balance" *ngIf="data.product.type === 'FREE_INVESTMENT_LOAN'">
+        <span>Te queda por pagar:</span><br>
+        {{ pendingToPay() | currency }}
+    </div>
+    <div class="pb-card__balance" *ngIf="data.product.type === 'FIXED_TERM_DEPOSIT_CERTIFICATE'">
+        <span>Valor invertido:</span><br>
+        {{ (data?.summary?.amount || 0) | currency }}
+    </div>
+</div>

@@ -1,0 +1,410 @@
+[
+	{
+		"product": {
+			"id": "721682723",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "PURPLE_BANK"
+		},
+		"issue_date": "2020-06-27T15:46:29.562Z",
+		"due_date": "2021-03-27T15:46:29.562Z",
+		"summary": {
+			"nominal_rate": 0.93,
+			"amount": 10000000,
+			"profits": 158020.81,
+			"term": {
+				"count": 9,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "920657410",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-09-28T10:46:28.184Z",
+		"due_date": "2022-09-28T10:46:28.184Z",
+		"summary": {
+			"effective_monthly_rate": 0.89,
+			"amount": 41000000,
+			"balance": 12527777.78,
+			"paid_installments": 11,
+			"total_installments": 36,
+			"next_payment": "2020-09-28T10:46:28.184Z",
+			"next_payment_amount": 1138888.89
+		}
+	},
+	{
+		"product": {
+			"id": "4444444444446513",
+			"type": "CREDIT_CARD",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2020-08-12T05:18:45.685Z",
+		"summary": {
+			"franchise": "VISA",
+			"category": "GOLD",
+			"credit_line": 9000000,
+			"advance_credit_line": 6750000,
+			"balance": 2416455.85,
+			"total_due": 6583544.15,
+			"min_payment": 348490.89,
+			"next_payment": "2020-09-12T05:18:45.685Z"
+		}
+	},
+	{
+		"product": {
+			"id": "578564641",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2018-09-11T06:41:07.160Z",
+		"summary": {
+			"balance": 690505.48
+		}
+	},
+	{
+		"product": {
+			"id": "844978068",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "RED_BANK"
+		},
+		"issue_date": "2020-05-02T10:52:30.363Z",
+		"due_date": "2021-05-02T10:52:30.363Z",
+		"summary": {
+			"nominal_rate": 1,
+			"amount": 12000000,
+			"profits": 104000.78,
+			"term": {
+				"count": 12,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "4444444444441118",
+			"type": "CREDIT_CARD",
+			"issuer": "RED_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-09-17T01:41:22.605Z",
+		"summary": {
+			"franchise": "VISA",
+			"category": "BLACK",
+			"credit_line": 7000000,
+			"advance_credit_line": 5250000,
+			"balance": 5121298.79,
+			"total_due": 1878701.21,
+			"min_payment": 1115256.83,
+			"next_payment": "2020-09-17T01:41:22.605Z"
+		}
+	},
+	{
+		"product": {
+			"id": "729399461",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "RED_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-12-06T19:54:48.293Z",
+		"due_date": "2022-12-06T19:54:48.293Z",
+		"summary": {
+			"effective_monthly_rate": 1.24,
+			"amount": 49000000,
+			"balance": 12250000,
+			"paid_installments": 9,
+			"total_installments": 36,
+			"next_payment": "2020-10-06T19:54:48.293Z",
+			"next_payment_amount": 1361111.11
+		}
+	},
+	{
+		"product": {
+			"id": "899657583",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "PURPLE_BANK"
+		},
+		"issue_date": "2020-05-08T20:33:40.433Z",
+		"due_date": "2020-11-08T20:33:40.433Z",
+		"summary": {
+			"nominal_rate": 1.21,
+			"amount": 15000000,
+			"profits": 138918.16,
+			"term": {
+				"count": 6,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "795852958",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "YELLOW_BANK"
+		},
+		"issue_date": "2020-08-14T10:35:16.683Z",
+		"due_date": "2021-05-14T10:35:16.683Z",
+		"summary": {
+			"nominal_rate": 0.82,
+			"amount": 14000000,
+			"profits": 133293.89,
+			"term": {
+				"count": 9,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "054596243",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "RED_BANK"
+		},
+		"issue_date": "2020-06-12T10:13:37.921Z",
+		"due_date": "2021-03-12T10:13:37.921Z",
+		"summary": {
+			"nominal_rate": 1.03,
+			"amount": 14000000,
+			"profits": 105427.75,
+			"term": {
+				"count": 9,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "5555555555559064",
+			"type": "CREDIT_CARD",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "OVERDUE",
+		"issue_date": "2020-09-09T05:35:16.610Z",
+		"summary": {
+			"franchise": "MASTERCARD",
+			"category": "GOLD",
+			"credit_line": 6000000,
+			"advance_credit_line": 4500000,
+			"balance": 186808.61,
+			"total_due": 5813191.39,
+			"min_payment": 5043775.87,
+			"next_payment": "2020-09-09T05:35:16.610Z"
+		}
+	},
+	{
+		"product": {
+			"id": "620842570",
+			"type": "FIXED_TERM_DEPOSIT_CERTIFICATE",
+			"issuer": "BLUE_BANK"
+		},
+		"issue_date": "2020-07-19T17:55:07.774Z",
+		"due_date": "2021-01-19T17:55:07.774Z",
+		"summary": {
+			"nominal_rate": 1.11,
+			"amount": 11000000,
+			"profits": 194152.41,
+			"term": {
+				"count": 6,
+				"units": "Months"
+			}
+		}
+	},
+	{
+		"product": {
+			"id": "033787251",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "BLUE_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-09-05T02:08:17.705Z",
+		"due_date": "2021-09-05T02:08:17.705Z",
+		"summary": {
+			"effective_monthly_rate": 0.83,
+			"amount": 20000000,
+			"balance": 10000000,
+			"paid_installments": 12,
+			"total_installments": 24,
+			"next_payment": "2020-10-05T02:08:17.705Z",
+			"next_payment_amount": 833333.33
+		}
+	},
+	{
+		"product": {
+			"id": "194950273",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "RED_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-04-01T03:35:20.625Z",
+		"due_date": "2022-04-01T03:35:20.625Z",
+		"summary": {
+			"effective_monthly_rate": 1.3,
+			"amount": 44000000,
+			"balance": 20777777.78,
+			"paid_installments": 17,
+			"total_installments": 36,
+			"next_payment": "2020-10-01T03:35:20.625Z",
+			"next_payment_amount": 1222222.22
+		}
+	},
+	{
+		"product": {
+			"id": "431913436",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-05-05T18:59:00.659Z",
+		"due_date": "2022-05-05T18:59:00.659Z",
+		"summary": {
+			"effective_monthly_rate": 1.11,
+			"amount": 24000000,
+			"balance": 10666666.67,
+			"paid_installments": 16,
+			"total_installments": 36,
+			"next_payment": "2020-10-05T18:59:00.659Z",
+			"next_payment_amount": 666666.67
+		}
+	},
+	{
+		"product": {
+			"id": "4444444444445509",
+			"type": "CREDIT_CARD",
+			"issuer": "RED_BANK"
+		},
+		"status": "OVERDUE",
+		"issue_date": "2019-02-08T11:28:39.273Z",
+		"summary": {
+			"franchise": "VISA",
+			"category": "BLACK",
+			"credit_line": 6000000,
+			"advance_credit_line": 4500000,
+			"balance": 4696950.1,
+			"total_due": 1303049.9,
+			"min_payment": 271693.87,
+			"next_payment": "2020-09-08T11:28:39.273Z"
+		}
+	},
+	{
+		"product": {
+			"id": "874801422",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "BLUE_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2020-01-14T13:24:07.324Z",
+		"summary": {
+			"balance": 1589740.37
+		}
+	},
+	{
+		"product": {
+			"id": "5555555555550766",
+			"type": "CREDIT_CARD",
+			"issuer": "RED_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2018-11-14T02:05:58.726Z",
+		"summary": {
+			"franchise": "MASTERCARD",
+			"category": "GOLD",
+			"credit_line": 5000000,
+			"advance_credit_line": 3750000,
+			"balance": 4164281.38,
+			"total_due": 835718.62,
+			"min_payment": 514016.74,
+			"next_payment": "2020-09-14T02:05:58.726Z"
+		}
+	},
+	{
+		"product": {
+			"id": "5555555555550105",
+			"type": "CREDIT_CARD",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-09-02T10:37:33.856Z",
+		"summary": {
+			"franchise": "MASTERCARD",
+			"category": "GOLD",
+			"credit_line": 8000000,
+			"advance_credit_line": 6000000,
+			"balance": 5073843.79,
+			"total_due": 2926156.21,
+			"min_payment": 670375.2,
+			"next_payment": "2020-10-02T10:37:33.856Z"
+		}
+	},
+	{
+		"product": {
+			"id": "617144142",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "GREEN_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2017-12-28T12:12:06.717Z",
+		"summary": {
+			"balance": 740685.71
+		}
+	},
+	{
+		"product": {
+			"id": "028391157",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "YELLOW_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2019-12-11T01:05:53.230Z",
+		"summary": {
+			"balance": 1124478.88
+		}
+	},
+	{
+		"product": {
+			"id": "120370869",
+			"type": "FREE_INVESTMENT_LOAN",
+			"issuer": "YELLOW_BANK"
+		},
+		"status": "UP_TO_DATE",
+		"issue_date": "2019-04-30T07:41:06.481Z",
+		"due_date": "2022-04-30T07:41:06.481Z",
+		"summary": {
+			"effective_monthly_rate": 0.96,
+			"amount": 28000000,
+			"balance": 12444444.44,
+			"paid_installments": 16,
+			"total_installments": 36,
+			"next_payment": "2020-09-30T07:41:06.481Z",
+			"next_payment_amount": 777777.78
+		}
+	},
+	{
+		"product": {
+			"id": "490485222",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "PURPLE_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2018-03-12T21:11:27.355Z",
+		"summary": {
+			"balance": 1205715.22
+		}
+	},
+	{
+		"product": {
+			"id": "473887863",
+			"type": "CURRENT_ACCOUNT",
+			"issuer": "YELLOW_BANK"
+		},
+		"status": "OPEN",
+		"issue_date": "2019-08-04T16:46:13.750Z",
+		"summary": {
+			"balance": 1847512.86
+		}
+	}
+]

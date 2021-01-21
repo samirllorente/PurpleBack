@@ -1,0 +1,10 @@
+<div class="pb-other-products">
+    <h4 class="pb-other-products__title">Mostrar otros productos</h4>
+    <app-switch></app-switch>
+</div>
+<div class="pb-products">
+    <app-product-card 
+        *ngFor="let product of (products$ | async)" 
+        [data]="product">
+    </app-product-card>
+</div>

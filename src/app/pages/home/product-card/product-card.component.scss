@@ -1,0 +1,63 @@
+@import '../../../../assets/scss/colors';
+
+.pb-card {
+    width: 15rem;
+    height: 18rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.125rem solid $gray;
+    -webkit-box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem adjust-color($dark, $alpha: -0.7);
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem adjust-color($dark, $alpha: -0.7);
+
+    &__header {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+
+        &__icon {
+            color: $white;
+            font-size: 0.5rem;
+            border-radius: 50%;
+            background-color: $gray-dark;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__view-detail {
+            display: flex;
+            align-items: center;
+            color: $blue;
+
+            & .material-icons {
+                color: $blue;
+            }
+        }
+    }
+
+    &__nro {
+        margin-bottom: 1.25rem;
+    }
+
+    
+    &__balance { 
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    &__nro,
+    &__balance * {
+        font-size: 0.8rem;
+    }
+
+    &__title {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-right: 30%;
+        margin-bottom: 1rem;
+        min-height: 2.4rem;
+    }
+}

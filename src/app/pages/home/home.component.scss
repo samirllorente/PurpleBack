@@ -1,0 +1,14 @@
+.pb-other-products {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        margin: 0.85rem 0.5rem 1rem 0
+    }
+}
+
+.pb-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

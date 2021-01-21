@@ -1,4 +1,7 @@
 <app-sidenav></app-sidenav>
 <div class="pb-panel" [ngClass]="{'close': openMenu}">
     <app-header></app-header>
+    <div class="pb-panel__content">
+       <router-outlet></router-outlet> 
+    </div>
 </div>
